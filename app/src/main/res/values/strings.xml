@@ -27,4 +27,15 @@
     <string name="title_activity_about_us">AboutUs</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_profiel_aanmaken_basis_gegevens">profiel_aanmaken_basis_gegevens
+    </string>
+    <string name="title_activity_profiel_aanmaken_ervaring">profiel_aanmaken_ervaring</string>
+    <string name="title_activity_profiel_aanmaken_jobvoorkeuren">profiel_aanmaken_jobvoorkeuren
+    </string>
+    <string name="title_activity_profiel_aanmaken_jobvoorkeuren_trefwoorden">
+        profiel_aanmaken_jobvoorkeuren_trefwoorden
+    </string>
+    <string name="title_activity_profiel_aanmaken_vaardigheid">profiel_aanmaken_vaardigheid</string>
+    <string name="title_activity_profiel_aanmaken_opleiding">profiel_aanmaken_opleiding</string>
+    <string name="Volgende">Volgende</string>
 </resources>

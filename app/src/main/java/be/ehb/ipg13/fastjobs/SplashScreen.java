@@ -27,14 +27,15 @@ public class SplashScreen extends ActionBarActivity {
             public void run() {
                 try {
                     sleep(1000);
-                    if(new_check==false){
+                    if(new_check==true){
 
-                    //Intent i = new Intent(getApplicationContext(),profiel_aanmaken_basis_gegevens.class);
-                   // startActivity(i);
+                    Intent i = new Intent("be.ehb.ipg13.fastjobs.basis_gegevens");
+                    startActivity(i);
                     finish();
                     }else {
                         Intent goToHome = new Intent("be.ehb.ipg13.fastjobs.homescreen");
                         startActivity(goToHome);
+                        finish();
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
