@@ -1,6 +1,7 @@
 package be.ehb.ipg13.fastjobs;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -79,8 +80,8 @@ public class profiel_aanmaken_jobvoorkeuren_trefwoorden extends ActionBarActivit
                 threadTrefwoorden.start();
                 Toast.makeText(getApplicationContext(), "SAVED!", Toast.LENGTH_LONG).show();
                 //Toast.makeText(getApplicationContext(), opslaanOpleiding.getString("studierichting 2","!!").toString(), Toast.LENGTH_LONG).show();
-                //Intent i = new Intent(getApplicationContext(),profiel_aanmaken_ervaring.class);
-                //startActivity(i);
+                Intent i = new Intent("be.ehb.ipg13.fastjobs.homescreen");
+                startActivity(i);
                 finish();
             }
         });
